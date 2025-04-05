@@ -1,10 +1,12 @@
-while wait() do
-        game:GetService("StarterGui"):SetCore("SendNotification", {
-            Title = "jew detector",
-            Text = "JEW DETECTED YOU WILL BE BANNED",
-            Duration = 3,
-        })
-end
+task.spawn(function()
+        while task.wait() do
+                game:GetService("StarterGui"):SetCore("SendNotification", {
+                    Title = "jew detector",
+                    Text = "JEW DETECTED YOU WILL BE BANNED YE",
+                    Duration = 3,
+                })
+        end
+end)
 
 wait(4)
 
